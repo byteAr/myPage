@@ -9,7 +9,21 @@ import { initFlowbite } from 'flowbite';
 })
 export class AppComponent implements OnInit {
   title = 'myPage';
-  prueba=true
+  prueba=true;
+  list= [
+    {
+      title: 'title1'
+    },
+    {
+      title: 'title2'
+    },
+    {
+      title: 'title3'
+    },
+    {
+      title: 'title4'
+    }
+  ]
   ngOnInit(): void {
     initFlowbite();
   }
